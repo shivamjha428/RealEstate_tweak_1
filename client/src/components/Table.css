@@ -1,0 +1,130 @@
+.i1{
+    border-radius: 0 150px 150px 0;
+    height: 8vh;
+    width: 8vh;
+    margin-left: -4%;
+    margin-top: 17px;
+}
+.i6{
+    height: 10vh;
+}
+.i5{
+    height: 5vh;
+    width: 15vh;
+    margin-left: 80%;
+}
+.PPPID{
+    margin-right: 0%;
+    width: 30vh;
+    border-radius: 60px;
+}
+.a2{
+    display: flex;
+    width: 100%;
+}
+.btn3{
+    border-radius: 60px;
+    margin-left: 80vh;
+    width: 40vh;
+}
+.body{
+    width: 100%;
+    margin-left: 2%;
+    height:15vh;
+    background-color: #FAFBFC; 
+}
+.Table{
+    width: 100%;
+}
+.cell1{
+    color:#284E91;
+    display: flexbox;
+    width: 11%;
+    margin-right: 0%;
+}
+.cell{
+    display: flexbox;
+    width: 11%;
+    margin-right: 0%;
+}
+.i3{
+    margin: 0%;
+    height: 2vh;
+    width: 3vh;
+}
+.i4{
+    margin: 0%;
+    height: 6vh;
+    width: 6vh; 
+}
+.model{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition:opacity .4s ease,visibility .4s ease,transform .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+}
+.model.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.model img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
+}
+.model.open svg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.4);
+    color: #ffffff;
+    cursor: pointer;
+}
+.popup{
+    /* width: 100%;
+    height: 100vh; */
+    position: fixed;
+    /* margin-bottom: 5vh; */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    transition:opacity .4s ease,visibility .4s ease,transform .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+}
+.pu{
+    height: 3vh;
+    width: 25%;
+    margin-right: 20vh;
+}
+.popup1{
+  width: 100%;
+  margin-left: 2%;  
+}

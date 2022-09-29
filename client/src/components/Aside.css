@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* .both{
+    width: 100%;
+    display: flex;
+} */
+.header-container{
+    display: inline-block;
+    height: 140vh;
+    width: 42vh;
+    background-color:#E1F9F4;
+}
+.part{
+    height: 15vh;
+}
+h1{
+    color: black;
+    margin-right: 10vh;
+}
+h2{
+    display: inline-block;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    color: gray
+}
+.sec{
+    margin-top: 15vh;
+    color: rgb(46, 119, 230);
+}
+img{
+    display: inline-block;
+    height: 2vh;
+    width: 2vh;
+    margin-left: 8vh;
+    margin-top: 5vh;
+}
